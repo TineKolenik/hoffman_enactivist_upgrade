@@ -3,7 +3,7 @@ import itertools as it
 
 # STATES
 STATES = list(set(state for state in it.product([None, 0, 1, 2], repeat=5)
-                  if state.count(None)==3)) # kot zanimivost daj: "upraviči" to z jeziki (ma absolutne koordinate)
+                  if state.count(None)==3))
 
 # CONFIG
 POPULATION = 200
